@@ -6,11 +6,11 @@ import {Outlet} from 'react-router-dom';
 
 const {Content} = Layout
 
-const PublicLayout: React.FC = () => (
+const PublicLayout = () => (
   <Space direction='vertical' style={{overflow: "hidden", width: "100vw"}}>
     <Layout style={{ minHeight: "100vh"}}>
       <PageHeader />
-      <Content style={{flex: '1'}}>
+      <Content style={{flex: '1', padding: '1rem'}}>
         <Breadcrumbs />
         <Outlet />
       </Content>

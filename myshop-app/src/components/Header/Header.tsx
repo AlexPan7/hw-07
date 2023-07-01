@@ -14,10 +14,6 @@ function PageHeader() {
       label: 'Home'
     },
     {
-      key: '/products',
-      label: 'Products'
-    },
-    {
       key: '/cart',
       label: 'Cart'
     },
